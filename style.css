@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: brown;
+}
+a {
+  display: block;
+  padding: 5px;
+}
+
+.todoApp{
+  margin: 30px 0px;
+  height: 400px;
+  width: 350px;
+  border: 1px solid #fff;
+  overflow: auto;
+}
+
+.todo_data{
+  display: grid;
+  grid-template-columns: 65% 18% 8%;
+  background-color: rgb(205, 190, 50);
+  padding: 5px 0px;
+  margin: 10px 10px;
+  grid-gap: 10px;
+  border-radius: 5px;
+}
+
+.actionButtons{
+  /* display: inline-block; */
+  float: right;
+}
+
+.todo_form {
+  padding: 20px;
+}
+
+.addTodo{
+  margin-left: 10px;
+}
+
+.btn {
+  max-height: 20px;
+}
